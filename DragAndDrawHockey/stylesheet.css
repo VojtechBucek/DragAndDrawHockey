@@ -1,0 +1,92 @@
+﻿.rozlozeni {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#Hraci, #Brankari, #PravyObrance, #LevyObrance, #LeveKridlo, #StredniUtocnik, #PraveKridlo {
+    min-height:200px;
+    width: 100%;
+    list-style-type: none;
+    float:right;
+    padding: 5px 0 0 0;
+    border: 3px solid black;
+}
+
+   
+    #Hraci:active, #Brankari:active, #PravyObrance:active, #LevyObrance:active, #LeveKridlo:active, #StredniUtocnik:active, #PraveKridlo:active {
+        border: 3px solid red;
+    }
+
+#Hraci li, #Brankari li, #PravyObrance li, #LevyObrance li, #LeveKridlo li, #StredniUtocnik li, #PraveKridlo li {  
+        padding:5px;
+        font-size: 1em;
+    }
+
+h3 {   
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.umisteni-h {
+    display: inline-block;
+    margin-bottom: 5%;   
+    float:left;
+    width:20%;
+}
+
+.umisteni-b {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20%;
+}
+
+.umisteni-po {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 20%;
+}
+
+.umisteni-lo {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20%;
+}
+
+.umisteni-pk {
+    display: block;
+    margin-top: 2.3%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 2%;
+    width: 20%;
+    float: right;
+}
+
+.umisteni-su {
+    display: inline-block;
+    margin-top: 2.3%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20%;
+    float: right;
+}
+
+.umisteni-lk {
+    display: inline-block;
+    margin-top: 2.3%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20%;
+    float: right;
+}
